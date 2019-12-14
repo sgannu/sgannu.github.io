@@ -23,6 +23,7 @@ export default class Resume extends React.Component {
                     <span>989.383.0030</span>
                 </a>
                 <p className="small">{content.master.commit}</p>
+                <p className="small">Father, runner, love recreational sports (biking, volleyball, ping-pong, tennis, foosball)</p>
                 <br />
             </div>
 

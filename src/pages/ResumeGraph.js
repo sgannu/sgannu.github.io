@@ -49,7 +49,7 @@ export function ResumeGraphComponent() {
                 work.merge(amdocs(gitgraph), "Experienced Europe & US culture, enjoyed travelling, ping-pong & food.").tag("2009 - Sr. Subject Matter Expert");
                 work.merge(statefarm(gitgraph), "Had fun taking up challenges and build successfull team").tag("2012 - Tech Lead/Architect");
                 work.merge(aa(gitgraph), "Work life balance/integration. Volleyball & still love ping-pong").tag("Till date - Lead Analyst")
-                master.merge(work, content.master.commit);
+                master.merge(work, content.master.commit + "Father, runner, love recreational sports (biking, volleyball, ping-pong, tennis, foosball)");
                 master.commit(content.master.merge)
             }}
         </Gitgraph>
