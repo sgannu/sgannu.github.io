@@ -13,7 +13,15 @@ export default class Resume extends React.Component {
     render() {
         return (<div className="content">
             <div className="gray">
-                <span>{content.master.branch} - {content.master.merge}</span>
+                <span className="selected">{content.master.branch}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a className="gray" href="mailto:sgannu.e@gmail.com">
+                    <img src="email.png" alt="icon" style={{width: '15px'}} />
+                    <span>sgannu.e@gmail.com</span>
+                </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a className="gray" href="tel:989-383-0030">
+                    <img src="phone.png" alt="icon" style={{width: '15px'}} />
+                    <span>989.383.0030</span>
+                </a>
                 <p className="small">{content.master.commit}</p>
                 <br />
             </div>
