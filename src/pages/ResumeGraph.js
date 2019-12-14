@@ -1,6 +1,6 @@
 import React from 'react';
-import {Gitgraph, templateExtend, TemplateName, CommitOptions, BranchOptions} from '@gitgraph/react';
-import {createFixedHashGenerator} from './helpers';
+import {Gitgraph, templateExtend, TemplateName} from '@gitgraph/react';
+import {content} from './helpers';
 
 export function ResumeGraphComponent() {
     const withoutAuthor = templateExtend(TemplateName.Metro, {
@@ -70,7 +70,7 @@ export function ResumeGraphComponent() {
         }}>
             {(gitgraph) => {
                 // Simulate git commands with Gitgraph API.
-                const master = gitgraph.branch({name: "Srinivas Gannu"});
+                const master = gitgraph.branch({name: content.master.branch});
                 master.commit({subject: "Initial commit in Millennials era"});
                 const edu = gitgraph.branch("Education");
                 edu.commit("Personal finance, desktop with 128MB RAM and 1GB HD")
@@ -84,8 +84,8 @@ export function ResumeGraphComponent() {
                 work.merge(amdocs(gitgraph), "Experienced Europe & US culture, enjoyed travelling, ping-pong & food.").tag("2009 - Sr. Subject Matter Expert");
                 work.merge(statefarm(gitgraph), "Had fun taking up challenges and build successfull team").tag("2012 - Tech Lead/Architect");
                 work.merge(aa(gitgraph), "Work life balance/integration. Volleyball & still love ping-pong").tag("Till date - Lead Analyst")
-                    .commit("Pursuing horizon for providing the best solutions with passion for technology and innovation.");
-                master.merge(work, "sgannu.e@gmail.com, 989.383.0030    -  { if (! a git-user) read from bottom to top } ");
+                    .commit(content.master.commit);
+                master.merge(work, content.master.merge);
             }}
         </Gitgraph>
     );
@@ -107,22 +107,22 @@ function uiuc(gitgraph) {
 
 function alcatel(gitgraph) {
     const branch = gitgraph.branch("Alcatel India Ltd");
-    branch.commit("Extreme programming in C, C++. Experimental and fun driven development");
-    branch.commit("Built an application layer for CAMEL protocol for SS7 stack on TCP");
+    branch.commit("Extreme programming in C, C++. Experimental and fun driven development")
+        .commit("Built an application layer for CAMEL protocol for SS7 stack on TCP");
     return branch;
 }
 
 function amdocs(gitgraph) {
     const branch = gitgraph.branch("Amdocs Inc.");
-    branch.commit("Extreme programming, linux kernel, IPC/socket programming, multi threading, shared memory etc");
-    branch.commit("From C, C++ to Java & web technologies, Multi threading, web services, unit testing etc");
-    branch.commit("Front end applications, desktop tools, automate tidious tasks, pl/sql");
-    branch.commit("Shortcuts, custom tools, scripting, Reusable modules/libraries, apis");
+    branch.commit("Extreme programming, linux kernel, IPC/socket programming, multi threading, shared memory etc")
+        .commit("From C, C++ to Java & web technologies, Multi threading, web services, unit testing etc")
+        .commit("Front end applications, desktop tools, automate tidious tasks, pl/sql")
+        .commit("Shortcuts, custom tools, scripting, Reusable modules/libraries, apis");
     return branch;
 }
 
 function statefarm(gitgraph) {
-    const branch = gitgraph.branch("Statefarm");
+    const branch = gitgraph.branch("Statefarm.");
     branch.commit("FullStack development, experimenting on JS & JQuery, big data, Spring and other java libraries")
         .commit("CI/CD pipeline on jenkins, automating version control and releases")
         .commit("Encourage reusability, clean code, solid principles, design patterns")
