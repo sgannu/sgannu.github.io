@@ -69,49 +69,49 @@ const content = {
             branch: "Computer Science",
             tag: "2004 - Bachelor Degree",
             merge: "Graduated in distinction",
-            commits: ["Mathematics, Algos & DS, DB Systems, Programming, Networking, Automata etc",
-                "Built 'C' Frontend compiler - Lexical analysis, Syntax analysis (lex & yacc)"
+            commits: ["Mathematics, Algos & DS, DB Systems, Programming, Networking, Automata etc.",
+                "Built 'C' Frontend compiler - Lexical analysis, Syntax analysis (lex & yacc)."
             ]
         },
         {
             branch: "System Programming",
             tag: "2010 - UIUC, Champaign, IL",
             merge: "Certification",
-            commits: ["Algorithms, datastructures, OS, Security, Andrioid",
-                "Andriod kernal api & app for monitoring and optimizing resources"]
+            commits: ["Algorithms, datastructures, OS, Security, Andrioid.",
+                "Andriod kernal api & app for monitoring and optimizing resources."]
         }],
     work: [
         {
             branch: "Alcatel India Ltd",
             tag: "2005 - Associate Developer",
             merge: "Learnt few french words: Bonjour, c'est mon premier boulot.",
-            commits: ["Extreme programming in C, C++. Experimental and fun driven development",
-                "Built an application layer for CAMEL protocol for SS7 stack on TCP"]
+            commits: ["Extreme programming in C, C++. Experimental and fun driven development.",
+                "Built an application layer for CAMEL protocol for SS7 stack on TCP."]
         },
         {
             branch: "Amdocs Inc.",
             tag: "2009 - Sr. Subject Matter Expert",
             merge: "Experienced Europe & US culture, enjoyed travelling, ping-pong & food.",
-            commits: ["Extreme programming, linux kernel, IPC/socket programming, multi threading, shared memory etc",
-                "From C, C++ to Java & web technologies, Multi threading, web services, unit testing etc",
-                "Front end applications, desktop tools, automate tidious tasks, pl/sql",
-                "Shortcuts, custom tools, scripting, Reusable modules/libraries, apis"
+            commits: ["Extreme programming, linux kernel, IPC/socket programming, multi threading, shared memory etc.",
+                "From C, C++ to Java & web technologies, Multi threading, web services, unit testing etc.",
+                "Front end applications, desktop tools, automate tidious tasks, pl/sql.",
+                "Shortcuts, custom tools, scripting, Reusable modules/libraries, apis."
             ]
         }, {
             branch: "Statefarm.",
             tag: "2012 - Tech Lead/Architect",
-            merge: "Had fun taking up challenges and build successfull team",
-            commits: ["FullStack development, experimenting on JS & JQuery, big data, Spring and other java libraries",
-                "CI/CD pipeline on jenkins, automating version control and releases",
-                "Encourage reusability, clean code, solid principles, design patterns",
-                "Leadership qualities, product thinking, Delivery challenges"
+            merge: "Had fun taking up challenges and build successfull team.",
+            commits: ["FullStack development, experimenting on JS & JQuery, big data, Spring and other java libraries.",
+                "CI/CD pipeline on jenkins, automating version control and releases.",
+                "Encourage reusability, clean code, solid principles, design patterns.",
+                "Leadership qualities, product thinking, Delivery challenges."
             ]
         }, {
             branch: "American Airlines.",
             tag: "Till date - Lead Analyst",
-            merge: "Work life balance/integration. Volleyball & still love ping-pong",
-            commits: ["FullStack + devops, cloud technologies, design thinking, Agile principles, Angular vs react",
-                "From complex design patterns to simple and SOLID code",
+            merge: "Work life balance/integration. Volleyball & still love ping-pong.",
+            commits: ["FullStack + devops, cloud technologies, Kubernetes, Docker, Angular vs react.",
+                "Design thinking, Agile principles, From complex design patterns to simple and SOLID code.",
                 "Focus on team success than personal. Ownership, mentoring, traning."
             ]
         }]
