@@ -83,7 +83,7 @@ const content = {
     work: [
         {
             branch: "Alcatel India Ltd",
-            tag: "2005 - Associate Developer",
+            tag: "2005 - R&D Associate Developer",
             merge: "Learnt few french words: Bonjour, c'est mon premier boulot.",
             commits: ["Extreme programming in C, C++. Experimental and fun driven development.",
                 "Built an application layer for CAMEL protocol for SS7 stack on TCP."]
@@ -99,7 +99,7 @@ const content = {
             ]
         }, {
             branch: "Statefarm.",
-            tag: "2012 - Tech Lead/Architect",
+            tag: "2012 - Senior Consultant Technical Lead",
             merge: "Had fun taking up challenges and build successfull team.",
             commits: ["FullStack development, experimenting on JS & JQuery, big data, Spring and other java libraries.",
                 "CI/CD pipeline on jenkins, automating version control and releases.",
@@ -108,7 +108,7 @@ const content = {
             ]
         }, {
             branch: "American Airlines.",
-            tag: "Till date - Lead Analyst",
+            tag: "Currently - Senior Consultant Technical Lead",
             merge: "Work life balance/integration. Volleyball & still love ping-pong.",
             commits: ["FullStack + devops, cloud technologies, Kubernetes, Docker, Angular vs react.",
                 "Design thinking, Agile principles, From complex design patterns to simple and SOLID code.",
