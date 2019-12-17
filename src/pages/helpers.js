@@ -108,7 +108,7 @@ const content = {
             ]
         }, {
             branch: "American Airlines.",
-            tag: "Currently - Senior Consultant Technical Lead",
+            tag: "Currently - Principal Consultant Technical Lead",
             merge: "Work life balance/integration. Volleyball & still love ping-pong.",
             commits: ["FullStack + devops, cloud technologies, Kubernetes, Docker, Angular vs react.",
                 "Design thinking, Agile principles, From complex design patterns to simple and SOLID code.",
