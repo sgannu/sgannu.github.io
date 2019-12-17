@@ -22,6 +22,7 @@ export default class Resume extends React.Component {
                     <img src="phone.png" alt="icon" style={{width: '15px'}} />
                     <span>989.383.0030</span>
                 </a>
+                <span>, Dallas, TX.</span>
                 <p className="small">{content.master.commit}</p>
                 <p className="small">Father, runner, love recreational sports (biking, volleyball, ping-pong, tennis, foosball).</p>
                 <br />

@@ -62,7 +62,7 @@ const content = {
     master: {
         branch: "Srinivas Gannu",
         commit: "Pursuing horizon for providing the best solutions with passion for technology & innovation.",
-        merge: "sgannu.e@gmail.com, 989.383.0030"
+        merge: "sgannu.e@gmail.com, 989.383.0030, Dallas, TX."
     },
     edu: [
         {
