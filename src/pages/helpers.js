@@ -78,7 +78,7 @@ const content = {
             tag: "2010 - UIUC, Champaign, IL",
             merge: "Certification",
             commits: ["Algorithms, datastructures, OS, Security, Andrioid.",
-                "Andriod kernal api & app for monitoring and optimizing resources."]
+                "Andriod kernel api & app for monitoring and optimizing resources."]
         }],
     work: [
         {
@@ -91,16 +91,16 @@ const content = {
         {
             branch: "Amdocs Inc.",
             tag: "2009 - Sr. Subject Matter Expert",
-            merge: "Experienced Europe & US culture, enjoyed travelling, ping-pong & food.",
+            merge: "Experienced Europe & US culture, enjoyed traveling, ping-pong & food.",
             commits: ["Extreme programming, linux kernel, IPC/socket programming, multi threading, shared memory etc.",
                 "From C, C++ to Java & web technologies, Multi threading, web services, unit testing etc.",
-                "Front end applications, desktop tools, automate tidious tasks, pl/sql.",
+                "Front end applications, desktop tools, automate tedious tasks, pl/sql.",
                 "Shortcuts, custom tools, scripting, Reusable modules/libraries, apis."
             ]
         }, {
             branch: "Statefarm.",
             tag: "2012 - Senior Consultant Technical Lead",
-            merge: "Had fun taking up challenges and build successfull team.",
+            merge: "Had fun taking up challenges and build successful team.",
             commits: ["FullStack development, experimenting on JS & JQuery, big data, Spring and other java libraries.",
                 "CI/CD pipeline on jenkins, automating version control and releases.",
                 "Encourage reusability, clean code, solid principles, design patterns.",
