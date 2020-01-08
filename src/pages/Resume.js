@@ -24,7 +24,7 @@ export default class Resume extends React.Component {
                 </a>
                 <span>, Dallas, TX.</span>
                 <p className="small">{content.master.commit}</p>
-                <p className="small">Father, runner, love recreational sports (biking, volleyball, ping-pong, tennis, foosball).</p>
+                <p className="small">Father, runner, love recreational sports (biking, volleyball, ping-pong).</p>
                 <br />
             </div>
 
