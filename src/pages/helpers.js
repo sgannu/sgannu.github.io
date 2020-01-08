@@ -101,7 +101,7 @@ const content = {
             branch: "Statefarm.",
             tag: "2012 - Senior Consultant Technical Lead",
             merge: "Had fun taking up challenges and build successful team.",
-            commits: ["FullStack development, experimenting on JS & JQuery, big data, Spring and other java libraries.",
+            commits: ["Technical architecture, fullStack development, experimenting on JS & JQuery, big data, Spring and other java libraries.",
                 "CI/CD pipeline on jenkins, automating version control and releases.",
                 "Encourage reusability, clean code, solid principles, design patterns.",
                 "Leadership qualities, product thinking, Delivery challenges."
