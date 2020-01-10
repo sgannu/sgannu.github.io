@@ -85,14 +85,14 @@ const content = {
             branch: "Alcatel India Ltd",
             tag: "2005 - R&D Associate Developer",
             merge: "Learnt few french words: Bonjour, c'est mon premier boulot.",
-            commits: ["Extreme programming in C, C++. Experimental and fun driven development.",
+            commits: ["Extreme & Dynamic programming in C, C++. Experimental and fun driven development.",
                 "Built an application layer for CAMEL protocol for SS7 stack on TCP."]
         },
         {
             branch: "Amdocs Inc.",
             tag: "2009 - Sr. Subject Matter Expert",
             merge: "Experienced Europe & US culture, enjoyed traveling, ping-pong & food.",
-            commits: ["Extreme programming, linux kernel, IPC/socket programming, multi threading, shared memory etc.",
+            commits: ["Extreme & Dynamic programming, linux kernel, IPC/socket programming, multi threading, shared memory etc.",
                 "From C, C++ to Java & web technologies, Multi threading, web services, unit testing etc.",
                 "Front end applications, desktop tools, automate tedious tasks, pl/sql.",
                 "Shortcuts, custom tools, scripting, Reusable modules/libraries, apis."
