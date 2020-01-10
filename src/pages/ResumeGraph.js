@@ -50,7 +50,7 @@ export function ResumeGraphComponent() {
                 content.work.forEach(workData => {
                     work.merge(branch(gitgraph, workData), workData.merge).tag(workData.tag);
                 });
-                master.merge(work, content.master.commit + "Father, runner, love recreational sports (biking, volleyball, ping-pong, tennis, foosball)");
+                master.merge(work, content.master.commit + "Father, runner, love teaching, mentoring and recreational sports (biking, volleyball, ping-pong etc)");
                 master.commit(content.master.merge)
             }}
         </Gitgraph>
