@@ -19,7 +19,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <div style={{float: "right", position: "obsolute", left: "50px"}}>
+        <div className="no-print" style={{float: "right", position: "obsolute", left: "50px"}}>
           <ToggleSlider on="developer mode" off="recruiter mode" onChange={this.changeMode} />
         </div>
         {
