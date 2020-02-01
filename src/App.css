@@ -1,5 +1,5 @@
 .App {
-  margin: 10px;
+  margin: 20px;
   font-size: 12px;
 }
 
@@ -116,7 +116,7 @@ input:checked + .slider:before {
 
 
 .content {
-  padding: 80px 10px;
+  padding: 80px 40px;
   font: 14pt Arial;
   alignment-baseline: central;
   fill: rgb(151, 151, 151);

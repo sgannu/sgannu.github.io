@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import {content} from './helpers';
+import ReactToPrint from 'react-to-print';
 
-export default class Resume extends React.Component {
+class Resume extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -14,11 +15,15 @@ export default class Resume extends React.Component {
     render() {
         return (<div className="content">
             <div className="gray">
-                <span className="selected">{content.master.branch}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span className="selected">{content.master.branch}</span>&nbsp;&nbsp;
                 <a className="gray" href="mailto:sgannu.e@gmail.com">
                     <img src="email.png" alt="icon" style={{width: '15px'}} />
                     <span>sgannu.e@gmail.com</span>
-                </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                </a>&nbsp;&nbsp;
+                <a className="gray" href="https://www.linkedin.com/in/srinivasgannu">
+                    <img src="lin.png" alt="icon" style={{width: '15px'}} />
+                    <span>https://www.linkedin.com/in/srinivasgannu</span>
+                </a>&nbsp;&nbsp;
                 <a className="gray" href="tel:989-383-0030">
                     <img src="phone.png" alt="icon" style={{width: '15px'}} />
                     <span>989.383.0030</span>
@@ -53,6 +58,25 @@ export default class Resume extends React.Component {
                     </div>
                 })}
             </div>
-        </div >);
+        </div>);
     }
 }
+
+
+const PrintMode = () => {
+    const componentRef = useRef();
+    return (
+        <div>
+            <ReactToPrint
+                trigger={() =>
+                    <div style={{float: "left"}}>
+                        <button class="gray" style={{padding: "10px", borderRadius: "25px", border: "3px solid #008fb5", margin: "15px", font: ".8rem Arial"}}>Print this out!</button>
+                    </div>}
+                content={() => componentRef.current}
+            />
+            <Resume ref={componentRef} />
+        </div>
+    );
+};
+
+export default Resume;

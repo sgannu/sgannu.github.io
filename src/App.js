@@ -19,14 +19,16 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <div style={{float: "right"}}>
+        <div style={{float: "right", position: "obsolute", left: "50px"}}>
           <ToggleSlider on="developer mode" off="recruiter mode" onChange={this.changeMode} />
         </div>
-        {this.state.developerMode ? (
-          <ResumeGraphComponent />
-        ) : (
-            <Resume />
-          )}
+        {
+          this.state.developerMode ? (
+            <ResumeGraphComponent />
+          ) : (
+              <Resume />
+            )
+        }
       </div >
     );
   }
