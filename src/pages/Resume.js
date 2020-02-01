@@ -6,7 +6,8 @@ export default class Resume extends React.Component {
         super(props);
         this.state = {
             work: content.work.slice(0).reverse(),
-            edu: content.edu.slice(0).reverse()
+            edu: content.edu.slice(0).reverse(),
+            masterCommits: content.master.commits.slice(0).reverse()
         }
     }
 
@@ -23,9 +24,9 @@ export default class Resume extends React.Component {
                     <span>989.383.0030</span>
                 </a>
                 <span>, Dallas, TX.</span>
-                <p className="small">{content.master.commit}</p>
-                <p className="small">Father, runner, love teaching, mentoring and recreational sports (biking, volleyball, ping-pong etc).</p>
-                <br />
+                {this.state.masterCommits.map((commit, i) => {
+                    return <p className="small">{commit}</p>
+                })}<br />
             </div>
 
             <div className="lists">
