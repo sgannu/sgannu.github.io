@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import {ResumeGraphComponent} from './pages/ResumeGraph';
+import {ResumeGraphComponent} from './pages/resume/ResumeGraph';
 import ToggleSlider from './components/toggle';
-import Resume from './pages/Resume';
+import Resume from './pages/resume/Resume';
 
 class App extends React.Component {
 

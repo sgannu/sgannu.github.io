@@ -1,6 +1,6 @@
 import React from 'react';
 import {Gitgraph, templateExtend, TemplateName} from '@gitgraph/react';
-import {content} from './resume/content';
+import {content} from './content';
 
 export function ResumeGraphComponent() {
     const withoutAuthor = templateExtend(TemplateName.Metro, {

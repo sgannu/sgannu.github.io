@@ -62,13 +62,14 @@ const content = {
     master: {
         branch: "Srinivas Gannu",
         commits: [
-            "Father, runner, love teaching, mentoring and recreational sports (biking, volleyball, ping-pong etc)",
-            "Curious, risk taking & open to sharing (more I share the more I gain), love open-source.",
+            "Java trainer, mentor, great listner, active learner and social.",
+            "Always curious, risk taking & open to sharing (more I share the more I gain), love open-source.",
             "Product/framework oriented design, customer centric and deliver value all the time.",
+            "AWS, Azure and IBM cloud expertise with focus on scaling, availability and security.",
             "Pursuing horizon for providing the best solutions with passion for technology & innovation."
         ],
         info: "sgannu.e@gmail.com, https://www.linkedin.com/in/srinivasgannu, 989.383.0030, Dallas, TX.",
-        merge: "Ready for next challenge!!!"
+        merge: "Actively learning ML/AI, python, R and ready for next challenge!!!"
     },
     edu: [
         {
@@ -122,7 +123,7 @@ const content = {
             commits: ["Technical architecture on and off cloud, fullStack + devops, cloud technologies, Kubernetes, Docker, Angular vs react.",
                 "Think big - reusability across enterprise through inner-source.",
                 "Automation every where. Saved several hours for QA and developers through simple solutions.",
-                "Built customized chrome extensions for forms data, A11Y validation framework, nodejs lib for IBM cloud deployment scripts.",
+                "Built customized chrome extensions for forms data, A11Y validation framework, nodejs lib for IBM & Azure cloud deployment scripts.",
                 "Design thinking, Agile principles, From complex design patterns to simple, SOLID and GRASP code.",
                 "Focus on team success than personal. Ownership, mentoring, training and technical/behavioral screening."
             ]

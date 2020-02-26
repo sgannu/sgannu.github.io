@@ -1,5 +1,5 @@
 import React, {useRef} from 'react';
-import {content} from './helpers';
+import {content} from './content';
 import ReactToPrint from 'react-to-print';
 
 class Resume extends React.Component {
