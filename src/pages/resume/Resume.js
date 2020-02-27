@@ -8,7 +8,8 @@ class Resume extends React.Component {
         this.state = {
             work: content.work.slice(0).reverse(),
             edu: content.edu.slice(0).reverse(),
-            masterCommits: content.master.commits.slice(0).reverse()
+            masterCommits: content.master.commits.slice(0).reverse(),
+            master: content.master
         }
     }
 
@@ -28,10 +29,12 @@ class Resume extends React.Component {
                     <img src="phone.png" alt="icon" style={{width: '15px'}} />
                     <span>989.383.0030</span>
                 </a>
-                <span>, Dallas, TX.</span>
-                {this.state.masterCommits.map((commit, i) => {
-                    return <p className="small">{commit}</p>
-                })}<br />
+                <span>, Dallas, TX.</span><br />
+
+                <ul><li className="small">{this.state.master.merge}</li>
+                    {this.state.masterCommits.map((commit, i) => {
+                        return <li className="small">{commit}</li>
+                    })}</ul><br />
             </div>
 
             <div className="lists">

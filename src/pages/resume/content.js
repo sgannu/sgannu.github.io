@@ -62,7 +62,7 @@ const content = {
     master: {
         branch: "Srinivas Gannu",
         commits: [
-            "Java trainer, mentor, great listner, active learner and social.",
+            "Java trainer, mentor, active learner and social.",
             "Always curious, risk taking & open to sharing (more I share the more I gain), love open-source.",
             "Product/framework oriented design, customer centric and deliver value all the time.",
             "AWS, Azure and IBM cloud expertise with focus on scaling, availability and security.",
@@ -124,6 +124,7 @@ const content = {
                 "Think big - reusability across enterprise through inner-source.",
                 "Automation every where. Saved several hours for QA and developers through simple solutions.",
                 "Built customized chrome extensions for forms data, A11Y validation framework, nodejs lib for IBM & Azure cloud deployment scripts.",
+                "Hackwars - SAAS for notifications and ML on Azure for time to send notifications and deals on travel destinations.",
                 "Design thinking, Agile principles, From complex design patterns to simple, SOLID and GRASP code.",
                 "Focus on team success than personal. Ownership, mentoring, training and technical/behavioral screening."
             ]
